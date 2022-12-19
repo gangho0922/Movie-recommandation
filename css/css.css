@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+body {
+  background-color: black;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.header {
+  display: flex;
+}
+#logo {
+  transition: all 0.5s ease-out;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 10%;
+  height: 10%;
+}
+#logo:hover {
+  transform: scale(1.1);
+}
+
+#logoText {
+  margin-top: 50px;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 200%;
+    width: 300%
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.main-nav-anim {
+  animation-duration: 1.0s;
+  animation-name: slidein;
+}
+.main-nav {
+  display:flex;
+  font-size: 2.0rem;
+  margin-top: 70px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 50px;
+}
+.main-nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.main-nav a:hover {
+  color: rgb(0, 217, 255);
+}
+.intro {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .main-bg img{
+    width: 1600;
+    height: 900;
+  }
+  
+  .ract-button {
+    box-sizing: content-box;
+      width: 200px;
+      height: 80px;
+      margin: 20px auto;
+      background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    transition: all 0.5s ease-out;
+    font-size: 2.0rem;
+    margin-bottom: -5%;
+    cursor: pointer;
+  }
+  .ract-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .list-wrapper {
+    margin-left: 20%;
+    margin-right: 25%;
+  }
+  .list-wrapper li {
+    border: 1px solid rgb(255, 255, 255);
+  }
+  .list-wrapper a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+  }
+  .list-wrapper a:hover {
+    color: aqua;
+  }
+  .list-wrapper img {
+    width: 225px;
+    height: 400px;
+  }
+  .list-wrapper p {
+    color: white;
+  }
+
+
+  .list-wrapper2 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .list-wrapper2 li {
+    border: 1px solid rgb(255, 255, 255);
+  }
+  .list-wrapper2 a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+  }
+  .list-wrapper2 a:hover {
+    color: aqua;
+  }
+  .list-wrapper2 img {
+    width: 800px;
+    height: 450px;
+  }
+  .list-wrapper2 p {
+    color: white;
+  }
+  
+  .footer {
+    margin-top : 34.3%;
+    text-align: center;
+    background-color: rgb(172, 172, 172);
+    font-size : 8mm;
+  }
+  .footerr{
+    margin-top : 4%;
+    margin-bottom : -10%;
+    text-align: center;
+    background-color: rgb(172,172,172);
+    font-size : 8mm;
+  }
+  .footerrr{
+    margin-top : 4%;
+    margin-bottom : -10%;
+    text-align: center;
+    background-color: rgb(172,172,172);
+    font-size : 8mm;
+  }
